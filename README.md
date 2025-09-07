@@ -46,6 +46,11 @@ If you are on console, you can remove this source, and I trust you will know how
 
 Make sure that game audio is the **only** thing that is in the audio mixer; no desktop or mic sources.
 
+### Stream/Recording settings
+Please set your recording path in OBS. Every race **must** be recorded locally in case the stream feed drops and additional verification is needed.
+
+Otherwise, stream/recording settings should be adjusted based on your own hardware.
+
 ### Example
 After everything has been setup, please click the eyeball next to the `HIDE THIS WHEN FINISHED` group. This will remove all the two text labels for LiveSplit.
 
