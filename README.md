@@ -31,7 +31,7 @@ Double click the new component and remove anything inside `Text`. You can set or
 
 - <details><summary>Clock</summary>
     <img src="images/livesplit_clock_settings.png">
-  <details>
+  </details>
 
 Your LiveSplit should now have a new row that displays the current date and time. In OBS, click the `LiveSplit Clock`, source and point it to LiveSplit. Crop out just the clock line into the `LIVESPLIT CLOCK` area.
 
