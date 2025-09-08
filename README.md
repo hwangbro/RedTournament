@@ -1,7 +1,7 @@
 # Pokemon Red 2025 Tournament Tech Setup (In Progress)
 
 ## OBS Scene Setup
-Download the [OBS setup](https://github.com/hwangbro/RedTournament/releases/download/v1/RED25_RUNNER_OBS.zip) for this year's tournament.
+Download the [OBS setup](https://github.com/hwangbro/RedTournament/releases/download/v2/RED25_RUNNER_OBS.zip) for this year's tournament.
 
 This is the OBS that you will be using to stream/record all of your tournament races this year. You can launch this OBS with the `RED RUNNER OBS LAUNCH.bat`.
 
