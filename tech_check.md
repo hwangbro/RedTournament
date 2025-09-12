@@ -1,4 +1,5 @@
 # Tech check verification steps
+- You can do these steps from your own system but I recommend using the dedicated restream PC
 - Join the user in a discord call and ask them to screen share their OBS
 - Provide them a stream key (ask @hwangbro if you don't have)
 - Ensure that their layout has all the necessary components (game feed, runner name, livesplit main timer/clock)
