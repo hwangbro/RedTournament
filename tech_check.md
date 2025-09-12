@@ -5,3 +5,9 @@
 - Ensure that their OBS is recording game audio
 - Have them start recording and ensure there are no issues (no crashes/settings, etc)
 - Have them start streaming and check to see if the stream goes online
+- Check their audio level, ensure that the dark bar in the stream PC's OBS is between -40 and -45db
+- Update spreadsheet, note any gain used if any
+
+- <details><summary>Audio Example</summary>
+    <img src="images/obs_audio_level.png">
+  </details>
