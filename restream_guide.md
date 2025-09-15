@@ -23,6 +23,8 @@
 
 ### Youtube Feeds
 
+<details><summary>Old method</summary>
+
 #### Steps for each runner
 - From the restream PC, go to Youtube. The PC should be logged in as the racebotxd account.
 - If you click the profile picture in the top right and click "switch account", there should be at least 3 accounts there for us to stream from including racebotxd. Pick one of the channels for a runner.
@@ -35,6 +37,14 @@
 - Interact with the browser source and full screen the video. Make sure the volume is maxed out.
 - Adust the volume if needed (gain filter or reducing their volume)
 - Repeat steps for next runner.
+
+</details>
+
+#### Steps for each runner
+- On the `Red 2025 Tech Sheet`, there is a list of stream keys and corresponding youtube links.
+- For now, the restream PC should already have Racer #1 -> youtube link for racer 1, 2 -> 2, etc.
+- Provide the stream key to the racer and have them go live. You should see their feed captured in OBS.
+- "Interact" with the browser source to make the video full screen, make sure the video feed is as up to date as possible by changing the playback speed to 2x until it "catches up"
 
 #### Verify stream feeds
 - On the `3 Racers` scene, ensure that all the feeds are appearing properly.
@@ -53,6 +63,7 @@
 - On the restream OBS, right click the `Program` -> `Open Program Projector` -> `New Window`
 - Maximize this window and have it in the background **without** minimizing it. This can be done by clicking any of the programs in the start bar, like OBS or discord.
 - In discord, screen share the Program preview window you've just opened. This will be the commentary feed.
+    - If you have issues exiting the screen, you can press `Alt-Tab` on your keyboard and you should be able to move your cursor outside of Parsec.
 - As the restreamer, if you wish to be in the call with the commentators and talk to them without the stream hearing you, have the restream discord account local mute your own discord account.
 
 ### Runner discord setup
