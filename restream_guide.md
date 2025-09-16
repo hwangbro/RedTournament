@@ -58,6 +58,12 @@
 - The runners should be given a palette, whether it's from you or the commentators.
 - Try to sync starting the NodeCG timer with racetime.gg's timer hitting 0.
 
+## Racebot
+- Once the racetime.gg room is open, you can enter the command in #race-bot to have it start watching
+- !watch <race_id> spoiler delay=5 watcher=<twitch_ch> -> `!watch bonus-gymgym-6876 spoiler delay=4 watcher=redracetv`
+- Delay can be adjusted during the race, but it mainly serves to avoid spoiling the chat if racebot messages are ahead of the feeds.
+- `!add_delay bonus-gymgym-6876 10` will update the new delay to 10 seconds.
+
 ### Discord commentary channel setup
 - The restream PC's discord account should join the commentatary voice channel
 - On the restream OBS, right click the `Program` -> `Open Program Projector` -> `New Window`
@@ -78,6 +84,7 @@
 - The stream pc should be sharing the OBS "Program" to the discord call for the commentators to watch and commentate over.
 - The runners should all be "Ready" in racetime.gg, with whatever palette is decided.
 - The runners should be in their own voice call, all server deafened/muted in case emergency communication is needed
+
 
 ### Starting the race
 - To start the race, you can cue the commentators in and transition to one of the OBS scenes `3 Racers` or `2 Racers` depending on the number of runners.
