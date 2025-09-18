@@ -102,4 +102,5 @@
 - If the runner wants to join for comments, unmute/undeafen them and have them move into the commentary channel. Adjust their audio levels as needed.
 - Make sure their feed is muted and unmute the next runner still in the race.
 - Once everyone is finished and the commentators/runners are done talking, have them close out and click "stop streaming" and "stop recording"
+- You can "hide" the runner OBS source, either after "THE END" or once they stop streaming.
 
