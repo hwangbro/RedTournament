@@ -56,11 +56,11 @@
 - Create the racetime.gg race, join it yourself. This can be done from your own PC.
 - Once the runners are ready to start and the stream is live, you will quit the race room and the racetime.gg timer should begin counting from -15 -> 0.
 - The runners should be given a palette, whether it's from you or the commentators.
-- Try to sync starting the NodeCG timer with racetime.gg's timer hitting 0.
 
 ## Racebot
 - Once the racetime.gg room is open, you can enter the command in #race-bot to have it start watching
 - !watch <race_id> spoiler delay=5 watcher=<twitch_ch> -> `!watch bonus-gymgym-6876 spoiler delay=4 watcher=redracetv`
+- If you join the room (which we should be doing), -> `!watch <yourname> spoiler delay=X watcher=redracetv`
 - Delay can be adjusted during the race, but it mainly serves to avoid spoiling the chat if racebot messages are ahead of the feeds.
 - `!add_delay bonus-gymgym-6876 10` will update the new delay to 10 seconds.
 
@@ -74,6 +74,7 @@
 
 ### Runner discord setup
 - Once the runners are setup, have them remain in the voice chat and server deafen/mute them.
+- Move the runners to one of the #Tournament-Room-X voice channels
 - If you need to reach out for any reason, undeafen/unmute them, switch to their channel on **your** discord independently of the restream and talk to them.
 
 ## Race Start
@@ -85,11 +86,10 @@
 - The runners should all be "Ready" in racetime.gg, with whatever palette is decided.
 - The runners should be in their own voice call, all server deafened/muted in case emergency communication is needed
 
-
 ### Starting the race
 - To start the race, you can cue the commentators in and transition to one of the OBS scenes `3 Racers` or `2 Racers` depending on the number of runners.
 - You shouldn't have to worry about the music; it shouldn't be playing on any of the tournament runner scenes.
-- Quit the racetime.gg race so the timer will automatically start counting from -15
+- Try to sync starting the NodeCG timer with the setup scene preview -> LiveSplit timer counting from -15 to 0.
 
 ## Race In Progress
 - Adjust audio levels if the people are complaining in stream.
@@ -98,7 +98,7 @@
 - If a runner forfeits, switch scenes to one of the 1/2, 1/3, or 2/3 scenes depending on which runner is the one that forfeited.
 
 ## Race Finish
-- As the runner finishes a run, do your best to time the NodeCG runner "Stop" button with their actual finish time so it updates properly in the feed.
+- As the runner finishes a run, do your best to time the NodeCG runner "Stop" button with their OBS feed and HoF transition
 - If the runner wants to join for comments, unmute/undeafen them and have them move into the commentary channel. Adjust their audio levels as needed.
 - Make sure their feed is muted and unmute the next runner still in the race.
 - Once everyone is finished and the commentators/runners are done talking, have them close out and click "stop streaming" and "stop recording"
