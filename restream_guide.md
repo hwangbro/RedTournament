@@ -80,11 +80,12 @@
 ## Race Start
 
 ### Final checklist
-- The stream should be Live and on the Intro scene, with music playing.
+- The runners should all be "Ready" in racetime.gg, with whatever palette is decided.
+- The stream should be on the intro scene, with music playing. Go live within 5-10 minutes of race start
 - The stream PC should be recording in OBS.
 - The stream pc should be sharing the OBS "Program" to the discord call for the commentators to watch and commentate over.
-- The runners should all be "Ready" in racetime.gg, with whatever palette is decided.
-- The runners should be in their own voice call, all server deafened/muted in case emergency communication is needed
+- The runners should be in their own voice call, all server deafened/muted in case emergency communication is needed.
+- You have nodecg open, ready to start the run timer in accordance with the stream feeds from the SETUP scene in OBS
 
 ### Starting the race
 - To start the race, you can cue the commentators in and transition to one of the OBS scenes `3 Racers` or `2 Racers` depending on the number of runners.
@@ -103,4 +104,5 @@
 - Make sure their feed is muted and unmute the next runner still in the race.
 - Once everyone is finished and the commentators/runners are done talking, have them close out and click "stop streaming" and "stop recording"
 - You can "hide" the runner OBS source, either after "THE END" or once they stop streaming.
+- Stop local recording
 
